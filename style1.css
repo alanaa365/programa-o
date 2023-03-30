@@ -1,14 +1,60 @@
-.cabecalho-imagem{
+* 
+ {
+   margin: 0;
+   padding: 0;
 
-background-color: aquamarine;
-color:bisque;
-display: flex;
-justify-content: space-around;
-
-}
-
-.nomeli{
-  display: inline-block;
+ }
+    body{
+      background-color: beige;
+      font-family: font-family: 'Nunito Sans', sans-serif;
+    }
 
 
-}
+.cabecalho {
+    background-color: aqua;
+    color: aqua;
+    display: flex;
+    justify-content:space-around;
+    padding: 24px 0;
+    margin: 0 16px;
+ }
+
+ #logoalura {
+      width: 20%;
+
+ }
+
+  .lista-itens{
+       display: inline-block;
+       margin: 0 16px;
+       padding: 24px 0;
+       font-size: 24px;
+
+ }
+
+  #programa{
+
+       width: 40%;
+  }
+
+   .escola{
+        background-image: linear-gradient(#383838, #00c0eb);
+        color: aliceblue;
+        display: flex;
+
+  }
+
+   .escolaconteudo[
+       width: 35%;
+       display; flex;
+       justify-cntent: center;
+       aling-itens; 24px 0;
+
+
+  ]
+
+  .escolatitulo{
+
+      padding: 24px 0;
+
+  }
